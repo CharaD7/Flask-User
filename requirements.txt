@@ -1,5 +1,5 @@
 # Flask
-Flask==0.10.1
+Flask==0.12.3
 
 # Flask extensions
 Flask-Babel==0.9
@@ -9,8 +9,9 @@ Flask-SQLAlchemy==1.0
 Flask-WTF==0.9.4
 
 # Python packages
-passlib==1.6.5
+passlib==1.7.3
 bcrypt==2.0.0
-pycryptodome==3.4.3
+pycryptodome==3.6.6
 speaklater==1.3
 
+wtforms>=3.0.0a1 # not directly required, pinned by Snyk to avoid a vulnerability
